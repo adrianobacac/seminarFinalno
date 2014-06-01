@@ -1,0 +1,19 @@
+Kod sa kojim usporedujem moze se pronaci na http://pastebin.com/cjAsAu3e
+Napravio ga je Mike Lyons prateci upute sa https://sites.google.com/site/indy256/algo/aho_corasick.
+
+
+
+U ostatku teksta biti æe objašnjeno kako koristiti programe.
+
+Sintaksa: moje C / moje Python / usporedba
+
+Na poèetku dodajemo rijeèi koje želimo tražiti.
+
+Rijeci se dodaju s:
+addWord(acalgo *base, char *word) / addWord(word) / add(word)
+
+Zatim gradimo stablo s:
+addFails(Queue *queue, acalgo *base) / addFails() / make()
+
+Za pretražiti tekst:
+readFile(acalgo *base, char *path) / readFile(path) / search (path)
